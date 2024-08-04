@@ -15,4 +15,4 @@ def smsapi():
     return jsonify({'message': f"Message to {number}: {message}"})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)  # Changed port to 8080
+    app.run(host='0.0.0.0', port=8080)  # Ensure the port is open in your VPS firewall settings
